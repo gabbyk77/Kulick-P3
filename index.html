@@ -21,7 +21,7 @@
 </head>
 
   <body>
-	<div class="container" id="app">
+	<div class="container" id="vue_app">
 
 	    <div class="header">
 
@@ -42,7 +42,7 @@
 						<img class="poster"  />
 						<div class="imageInfo">{{ posterindex }}</div>
 
-						<p class="title">{{ title }} ({{ country }})</p>
+						<p class="title">{{ movies[0].title }} ({{ country }})</p>
 						<p class="score"><i class="fa fa-star" aria-hidden="true"></i> {{ iscore }} </p>
 						<p class="runtime">Runtime: {{ runtime }}</p>
 						<p class="released">Released: {{ released }} | Rated: {{ rating }}</p>

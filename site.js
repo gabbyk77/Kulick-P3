@@ -43,10 +43,10 @@ const vue_app = Vue.createApp({
             /* ADD FUNCTIONS/METHODS FOR STEP 7 HERE */
             getMonthText(dateArray) {
               //not really sure what to put in these functions yet, or if they're even in the right spots
-            }
+            },
             like(index) {
 
-            }
+            },
             dislike(index) {
 
             }

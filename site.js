@@ -42,6 +42,7 @@ const vue_app = Vue.createApp({
       methods: {
             /* ADD FUNCTIONS/METHODS FOR STEP 7 HERE */
             getMonthText(dateArray) {
+              var month;
               switch (dateArray[1]) {
                 case 1: month = "January";
                 break;
@@ -69,7 +70,7 @@ const vue_app = Vue.createApp({
                 break;
 
             }
-              return month + dateArray[1] + dateArray[2];
+              return month + " " + dateArray[2] + " " + dateArray[1];
             },
             posterClick(index) {
               movies[index].posters[0]

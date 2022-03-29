@@ -49,8 +49,8 @@
 						<p class="websites">Websites: <a>{{ movie.imdb }}</a> | <a>{{ movie.website }}</a></p>
 
 			            <div class="social">
-			              <p v-on:click="like++" class="likes"><i class="fa fa-thumbs-up" aria-hidden="true"></i> {{ movie.likes }}</p>
-			              <p v-on:click="dislike--" class="dislikes"><i class="fa fa-thumbs-down" aria-hidden="true"></i> {{ movie.dislikes }}</p>
+			              <p class="likes" @click="movies[index].likes++"><i class="fa fa-thumbs-up" aria-hidden="true"></i> {{ movie.likes }}</p>
+			              <p class="dislikes" @click="movies[index].dislikes++"><i class="fa fa-thumbs-down" aria-hidden="true"></i> {{ movie.dislikes }}</p>
 			            </div>
 	            </div>
 	        </div>

@@ -67,18 +67,14 @@ const vue_app = Vue.createApp({
                 break;
                 case 12: month = "December";
                 break;
-                return month;
+
             }
-
-            },
-            like(index) {
-
-            },
-            dislike(index) {
-
+              return month + dateArray[1] + dateArray[2];
             },
             posterClick(index) {
-
+              movies[index].posters[0]
+              movies[index].posters[1]
+              movies[index].posters[2]
             }
       }
 })

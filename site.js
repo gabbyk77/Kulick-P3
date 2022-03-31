@@ -76,6 +76,9 @@ const vue_app = Vue.createApp({
               movies[index].posters[0]
               movies[index].posters[1]
               movies[index].posters[2]
+            },
+            timeText(minutes) {
+              
             }
       }
 })
